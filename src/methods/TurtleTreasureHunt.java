@@ -29,10 +29,10 @@ public class TurtleTreasureHunt implements KeyEventDispatcher {
 
 	private void goLeft() {
 		// 3. make the tortoise move left (3 lines of code)
-		// Hint: the turn() method lags more than setAngle()
+		// Hint: the turn() method lags more than setAngle()	
 
-	
-	
+
+
 	}
 
 	private void goRight() {
@@ -60,7 +60,7 @@ public class TurtleTreasureHunt implements KeyEventDispatcher {
 		 * If you want to use your own background, download the image you want, and change the following line to point to it like: new
 		 * ImageBackground("file:/Users/joonspoon/Desktop/dinosaurLand.jpg");
 		 */
-		Paintable backgroundImage = new ImageBackground("file:/Users/League/Google Drive/league-images/treasure_hunt.jpg");
+		Paintable backgroundImage = new ImageBackground("file:/Users/League/Desktop/Level0Module3/league-images/treasure_hunt.jpg");
 		Tortoise.getBackgroundWindow().addPaintable(backgroundImage);
 		Tortoise.penUp();
 		JOptionPane.showMessageDialog(null, "Ask the little girl for help with your quest. Press the space bar to ask.");

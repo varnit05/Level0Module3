@@ -30,11 +30,11 @@ public class AnimalFarm {
 		playNoise(woofFile);
 	}
 
-	  String quackFile = "/Users/League/Google Drive/league-sounds/quack.wav";
-	String mooFile = "/Users/League/Google Drive/league-sounds/moo.wav";
-	String woofFile = "/Users/League/Google Drive/league-sounds/woof.wav";
-	String meowFile = "/Users/League/Google Drive/league-sounds/meow.wav";
-	String llamaFile = "/Users/League/Google Drive/league-sounds/llama.wav";
+	String quackFile = "/Users/League/Desktop/Level0Module3/league-sounds/quack.wav";
+	String mooFile = "/Users/League/Desktop/Level0Module3/league-sounds/moo.wav";
+	String woofFile = "/Users/League/Desktop/Level0Module3/league-sounds/woof.wav";
+	String meowFile = "/Users/League/Desktop/Level0Module3/league-sounds/meow.wav";
+	String llamaFile = "/Users/League/Desktop/Level0Module3/league-sounds/llama.wav";
 
 
 	/* Ignore this stuff */

@@ -64,7 +64,7 @@ public class TortoiseInSpace implements KeyEventDispatcher {
 		System.out.println("EUREKA!");
 		try {
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(
-					"/Users/League/Google Drive/league-sounds/r2d2-eureka.wav"));
+					"/Users/League/Desktop/Level0Module3/league-sounds/r2d2-eureka.wav"));
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioInputStream);
 			clip.start();
