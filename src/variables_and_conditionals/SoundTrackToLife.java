@@ -4,7 +4,7 @@ import java.net.URI;
 
 import javax.swing.JOptionPane;
 
-public class SoundtrackToLife {
+public class SoundTrackToLife {
 
 	public static void main(String[] args) {
 
