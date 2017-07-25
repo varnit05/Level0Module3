@@ -13,18 +13,36 @@ import org.teachingextensions.logo.Tortoise;
 
 public class TortoiseInSpace implements KeyEventDispatcher {
 
+
 	/*  Make the Tortoise move around the screen when the arrow keys are pressed... */
 	private void moveTortoise(int keyPressed) {
 		// 0. Print out the keyPressed variable and write down the numbers for each arrow key
-
+System.out.println(keyPressed);
 		// 1. If the up arrow is pressed, move the Tortoise up the screen.
-
+			if(38==keyPressed){
+				Tortoise.setAngle(0);
+				Tortoise.move(10);
+				}
+			
 		// 2. If the down arrow is pressed, move the Tortoise down.
-
+			if(40==keyPressed){
+				Tortoise.setAngle(0);
+				Tortoise.turn(180);
+				Tortoise.move(10);	
+			}
+			
 		// 3. If the left arrow is pressed, make the tortoise go left. Hint: Make sure to end with the Tortoise facing UP.
-		
-		// 4. If right is pressed, move the Tortoise right.
-		
+			if(37==keyPressed){
+				Tortoise.setAngle(0);
+				Tortoise.turn(270);
+				Tortoise.move(10);
+			}
+		// 4. If right is pressed, move the Tortoise right.\
+			if(39==keyPressed){
+				Tortoise.setAngle(0);
+				Tortoise.turn(90);
+				Tortoise.move(10);
+			}
 		// 5. Then move the Tortoise to RD-2D for a surprise! 
 	}
 
@@ -64,7 +82,7 @@ public class TortoiseInSpace implements KeyEventDispatcher {
 		System.out.println("EUREKA!");
 		try {
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(
-					"/Users/League/Desktop/Level0Module3/league-sounds/r2d2-eureka.wav"));
+					"/Users/league/Desktop/Level0Module3/league-sound/r2d2-eureka.wav"));
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioInputStream);
 			clip.start();

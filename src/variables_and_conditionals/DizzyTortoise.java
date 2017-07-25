@@ -12,11 +12,11 @@ public class DizzyTortoise {
 
  // 1. Use the dance method to make the Tortoise spin.
 String spin =JOptionPane.showInputDialog("How dizzy do you want the tortoise from 1-10?");
-																			
-	
+int number = Integer.parseInt(spin);																			
+
 	//DizzyTortoise.dance(3);
-	dance(20);
-	System.out.println("hello");
+	dance(number);
+	//System.out.println("hello");
 	}
 	static void dance(int numberOfSpins) {
 		for (int i = 0; i < numberOfSpins; i++) {
